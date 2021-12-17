@@ -3,7 +3,7 @@
     {
       "name": "task 1",
       "setup": "",
-      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task1",
+      "run": "pytest -v ./Lab01Tests.py -m task1",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "task 2",
       "setup": "",
-      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task2",
+      "run": "pytest -v ./Lab01Tests.py -m task2",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "task 3",
       "setup": "",
-      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task3",
+      "run": "pytest -v ./Lab01Tests.py -m task3",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "task 4",
       "setup": "",
-      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task3",
+      "run": "pytest -v ./Lab01Tests.py -m task3",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "task 5",
       "setup": "",
-      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task3",
+      "run": "pytest -v ./Lab01Tests.py -m task3",
       "input": "",
       "output": "",
       "comparison": "included",
