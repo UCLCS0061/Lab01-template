@@ -24,6 +24,8 @@ import petlib
 # and decryption using the functions in petlib.cipher.
 
 from os import urandom
+
+import pytest
 from petlib.cipher import Cipher
 from pytest import raises
 
@@ -249,17 +251,23 @@ def dh_decrypt(priv, ciphertext, alice_ver=None):
     pass
 
 
-#  TODO: populate those (or more) tests.
-#  Ensure they run using the "pytest Lab01.py" command.
+# TODO: Populate these (or more) tests.
+# Pytest assumes any function that starts with `test_` is a test.
+# To create additional tests, add more functions below the given stubs
+# and mark them as being part of task5.
+# Ensure they run using the "pytest Lab01.py" command.
 
+@pytest.mark.task5
 def test_encrypt():
     assert False
 
 
+@pytest.mark.task5
 def test_decrypt():
     assert False
 
 
+@pytest.mark.task5
 def test_fails():
     assert False
 
