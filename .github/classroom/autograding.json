@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "task 1",
+      "setup": "",
+      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task 2",
+      "setup": "",
+      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task 3",
+      "setup": "",
+      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task 4",
+      "setup": "",
+      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task 5",
+      "setup": "",
+      "run": "pytest -v ./Lab01Basics/Lab01Tests.py -m task3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+<img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
+
+![GitHub Classroom Workflow](../../workflows/GitHub%20Classroom%20Workflow/badge.svg?branch=main)
+
 # COMP0061 -- Privacy Enhancing Technologies -- Lab 01
 
 This lab will introduce the basics of Petlib, encryption, signatures, and an end-to-end encryption system.
@@ -62,10 +66,15 @@ concepts are introduced.
 We encourage you to attempt labs as soon as they are made available and to use the dedicated lab time to bring up any
 queries with the TAs.
 
-Labs will be checked using Github Classroom, and the tests (potentially including some hidden tests) will be run each
+Labs will be checked using Github Classroom, and the tests will be run each
 time you push any changes to the `main` branch of your Github repository.
+The latest score from automarking should be shown in the Readme file.
+To see the test runs, look at the Actions tab in your Github repository. 
+
 Make sure the submitted `Lab01Code.py` file at least satisfies the tests, without the need for any external dependency 
 except the Python standard libraries and the Petlib library. 
+Only submissions prior to the Github Classroom deadline will be marked, so make sure you push your code in time.
+
 
 To re-iterate, the tests passing is a necessary but not sufficient condition to fulfill each task.
 All submissions will be checked by TAs for correctness and your final marks are based on their assessment of your work.  
