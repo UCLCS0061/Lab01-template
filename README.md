@@ -67,9 +67,13 @@ time you push any changes to the `main` branch of your Github repository.
 Make sure the submitted `Lab01Code.py` file at least satisfies the tests, without the need for any external dependency 
 except the Python standard libraries and the Petlib library. 
 
+To re-iterate, the tests passing is a necessary but not sufficient condition to fulfill each task.
+All submissions will be checked by TAs for correctness and your final marks are based on their assessment of your work.  
+
+<!-- todo: distribute the 6 marks-->
 ## TASK 1 -- Basic installation
-> Ensure petlib is installed on the System
-> and also pytest. Ensure the Lab Code can 
+> Ensure petlib is installed on the system
+> and also pytest. Ensure the lab code can 
 > be imported.
 
 ### Hints

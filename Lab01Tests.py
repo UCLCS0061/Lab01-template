@@ -10,7 +10,7 @@
 
 #####################################################
 # TASK 1 -- Ensure petlib and pytest are installed on
-#           the System. Make sure lab code can be
+#           the system. Ensure lab code can be
 #           imported
 
 import pytest
