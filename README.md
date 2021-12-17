@@ -78,7 +78,7 @@ Only submissions prior to the Github Classroom deadline will be marked, so make 
 To re-iterate, the tests passing is a necessary but not sufficient condition to fulfill each task.
 All submissions will be checked by TAs for correctness and your final marks are based on their assessment of your work.  
 
-<!-- todo: distribute the 6 marks-->
+<!-- todo: distribute the 6 marks; expand tests to make reflect the mark distribution-->
 ## TASK 1 -- Basic installation
 > Ensure petlib is installed on the system
 > and also pytest. Ensure the lab code can 

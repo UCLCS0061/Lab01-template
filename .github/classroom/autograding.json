@@ -33,7 +33,7 @@
     {
       "name": "task 4",
       "setup": "",
-      "run": "pytest -v ./Lab01Tests.py -m task3",
+      "run": "pytest -v ./Lab01Tests.py -m task4",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "task 5",
       "setup": "",
-      "run": "pytest -v ./Lab01Tests.py -m task3",
+      "run": "pytest -v ./Lab01Tests.py -m task5",
       "input": "",
       "output": "",
       "comparison": "included",
