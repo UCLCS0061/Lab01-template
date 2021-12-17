@@ -1,6 +1,5 @@
-<img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
-
 ![GitHub Classroom Workflow](../../workflows/GitHub%20Classroom%20Workflow/badge.svg?branch=main)
+<img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
 
 # COMP0061 -- Privacy Enhancing Technologies -- Lab 01
 
@@ -24,7 +23,7 @@ The petlib documentation is [available on-line here](http://petlib.readthedocs.o
 ### Setup
 The intended environment for this lab is the Linux operating system with Python 3 installed. 
 
-<!-- todo: write up virtual env, setup.sh, requirements.txt, VM-->
+<!-- todo: write up virtual env, source setup.sh, requirements.txt, VM-->
 
 ### Working with unit tests
 Unit tests are run from the command line by executing the command:

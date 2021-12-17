@@ -25,6 +25,7 @@ import petlib
 
 from os import urandom
 from petlib.cipher import Cipher
+from pytest import raises
 
 
 def encrypt_message(key, message):
@@ -42,7 +43,7 @@ def decrypt_message(key, iv, ciphertext, tag):
     """
     # TODO: ADD YOUR CODE HERE
 
-    return plain.encode("utf8")
+    return plain
 
 
 #####################################################
