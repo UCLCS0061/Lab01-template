@@ -167,7 +167,8 @@ def point_scalar_multiplication_montgomerry_ladder(a, b, p, x, y, scalar):
     R1 = (x, y)
 
     for i in reversed(range(0, scalar.num_bits())):
-        pass  # TODO: ADD YOUR CODE HERE
+        # TODO: ADD YOUR CODE HERE
+        pass
 
     return R0
 
@@ -224,7 +225,7 @@ def dh_get_key():
     return group, priv_dec, pub_enc
 
 
-def dh_encrypt(pub, message, aliceSig=None):
+def dh_encrypt(pub, message, alice_sig=None):
     """ Assume you know the public key of someone else (Bob), 
     and wish to Encrypt a message for them.
         - Generate a fresh DH key for this message.
@@ -237,7 +238,7 @@ def dh_encrypt(pub, message, aliceSig=None):
     pass
 
 
-def dh_decrypt(priv, ciphertext, aliceVer=None):
+def dh_decrypt(priv, ciphertext, alice_ver=None):
     """ Decrypt a received message encrypted using your public key, 
     of which the private key is provided.
     Optionally verify the message came from Alice using her verification
@@ -247,10 +248,8 @@ def dh_decrypt(priv, ciphertext, aliceVer=None):
     pass
 
 
-#  NOTE: populate those (or more) tests
-#  ensure they run using the "pytest Lab01.py" command.
-#  What is your test coverage? Where is it missing cases?
-#  $ pytest --cov-report html --cov Lab01Code Lab01Code.py
+#  TODO: populate those (or more) tests.
+#  Ensure they run using the "pytest Lab01.py" command.
 
 def test_encrypt():
     assert False
@@ -262,6 +261,16 @@ def test_decrypt():
 
 def test_fails():
     assert False
+
+
+"""
+Run the tests with test coverage:
+$ pytest --cov-report html --cov Lab01Code Lab01Code.py
+
+What is your test coverage? Where is it missing cases?
+
+TODO: ADD YOUR ANSWER HERE
+"""
 
 
 #####################################################

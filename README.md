@@ -183,17 +183,28 @@ from petlib.ecdsa import do_ecdsa_sign, do_ecdsa_verify
 $ pytest -v Lab01Tests.py -m task5
 ```
    
-- This time you may use the facilities in petlib.ec to implement an EC Diffie-Hellman exchange. The documentation [is here](http://petlib.readthedocs.org/en/latest/index.html#module-petlib-ec)
+- This time you may use the facilities in petlib.ec to implement an EC Diffie-Hellman exchange.
+The documentation [is here](http://petlib.readthedocs.org/en/latest/index.html#module-petlib-ec)
 
 - Also: have a look at the provided key generation function to guide the remaining of the implementation.
 
-- This task requires you to implement a simple hybrid encryption scheme, guided by the scheme presented in the slides. In a nutshell you may assume that Alice and Bob are aware of each other's public keys, and use those to eventually derive a shared key. This shared key is eventually used to key an AES-GCM cipher to protect the integrity and confidentiality of a message.
+- This task requires you to implement a simple hybrid encryption scheme, guided by the scheme presented in the slides. 
+In a nutshell you may assume that Alice and Bob are aware of each other's public keys, and use those to eventually
+derive a shared key.
+This shared key is eventually used to key an AES-GCM cipher to protect the integrity and confidentiality of a message.
 
-- You may assume that the public key passed to `dh_encrypt` is the public encryption key of the recipient, and the `aliceeSig` parameter is the signature key of Alice the sender. Conversely, the `priv` paramemter of `dh_encrypt` is the receipient's (Bob) secret decryption key and `aliceVer` a public verification key for a signature scheme.
+- You may assume that the public key passed to `dh_encrypt` is the public encryption key of the recipient, and the 
+`alice_sig` parameter is the signature key of Alice the sender.
+Conversely, the `priv` parameter of `dh_encrypt` is the recipient's (Bob) secret decryption key and `alice_ver` a public
+verification key for a signature scheme.
 
-- As part of this task you MUST implement a number of tests to ensure that your code is correct. Stubs for 3 such tests are provided, namely `test_encrypt`, `test_decrypt` (which are self explanatory), and `test_fails` which is meant to check for conditions under which the decryption must fail. At least these should be implemented in the code file, but feel free to implement more.
+- As part of this task you MUST implement a number of tests to ensure that your code is correct.
+Stubs for 3 such tests are provided, namely `test_encrypt`, `test_decrypt` (which are self-explanatory), and 
+`test_fails` which is meant to check for conditions under which the decryption must fail.
+At least these should be implemented in the code file, but feel free to implement more.
 
-- Your tests should run when you execute the following command, which produces a report on your tests coverage. Ensure all lines of code are fully covered by the test regime!
+- Your tests should run when you execute the following command, which produces a report on your test coverage.
+Ensure all lines of code are fully covered by the test regime!
 
 ```
 $ pytest --cov-report html --cov Lab01Code Lab01Tests.py 
@@ -209,6 +220,8 @@ $ pytest --cov-report html --cov Lab01Code Lab01Tests.py
 ### Hints
 - If you made it so far, talk to a TA. 
 
-- If you are set on answering this question, you must time your execution of scalar multiplication to investigate timing side channels. 
+- If you are set on answering this question, you must time your execution of scalar multiplication to investigate timing
+side channels. 
 
-- Once you have observed timing channels that may leak secrets, go back and fix the scalar multiplication code to run in constant time.
+- Once you have observed timing channels that may leak secrets, go back and fix the scalar multiplication code to run in
+constant time.
