@@ -295,4 +295,5 @@ TODO: ADD YOUR ANSWER HERE
 #           - Fix one implementation to not leak information.
 
 def time_scalar_mul():  # pragma: no cover
+    # TODO: ADD YOUR CODE HERE
     pass
