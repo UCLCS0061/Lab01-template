@@ -49,6 +49,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 1
+    },
+    {
+      "name": "test coverage",
+      "setup": "",
+      "run": "pytest --cov-report html --cov Lab01Code Lab01Tests.py --cov-fail-under=100",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }

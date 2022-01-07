@@ -97,7 +97,9 @@ def point_add(a, b, p, x0, y0, x1, y1):
         xr  = lam^2 - xp - xq (mod p)
         yr  = lam * (xp - xr) - yp (mod p)
 
-    Return the point resulting from the addition. Raises an Exception if the points are equal.
+    Return the point resulting from the addition by
+    implementing the above pseudocode.
+    Raises an Exception if the points are equal.
     """
 
     # TODO: ADD YOUR CODE BELOW
@@ -292,5 +294,5 @@ TODO: ADD YOUR ANSWER HERE
 #           - Print reports on timing dependencies on secrets.
 #           - Fix one implementation to not leak information.
 
-def time_scalar_mul():
+def time_scalar_mul():  # pragma: no cover
     pass
