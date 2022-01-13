@@ -20,8 +20,14 @@ which was specifically developed for this course (and also for our own use!).
 
 The petlib documentation is [available on-line here](http://petlib.readthedocs.org/en/latest/index.html).
 
+### Checking out code
+
+Check out the code by using your preferred git client (e.g., git command line client, Github Desktop, Sourcetree).
+Alternatively, if you are using VSCode, click the `Open in Visual Studio Code` button above to automatically check
+out and open the repository.
+
 ### Setup
-The intended environment for this lab is the Linux operating system with Python 3 installed. 
+The intended environment for this lab is the Linux operating system with Python 3 installed.
 
 We provide a `setup.sh` file that creates a local virtual environment, installs the dependencies needed for the lab,
 and activates the virtual environment. To run the setup file, type `source setup.sh` into the terminal. The virtual
