@@ -23,7 +23,13 @@ The petlib documentation is [available on-line here](http://petlib.readthedocs.o
 ### Setup
 The intended environment for this lab is the Linux operating system with Python 3 installed. 
 
-<!-- todo: write up virtual env, source setup.sh, requirements.txt, VM-->
+We provide a `setup.sh` file that creates a local virtual environment, installs the dependencies needed for the lab,
+and activates the virtual environment. To run the setup file, type `source setup.sh` into the terminal. The virtual
+environment is needed to run the unit tests locally. 
+
+*Alternatively:* The tests are the same as the ones that run as part of the Github Classroom automated marking system, 
+so you can also run the tests by simply committing and pushing your changes to Github, without the need for a local 
+setup or even having Python 3 installed.
 
 ### Working with unit tests
 Unit tests are run from the command line by executing the command:

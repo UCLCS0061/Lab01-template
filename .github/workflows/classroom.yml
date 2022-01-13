@@ -12,6 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+           repository: UCLCS0061/Lab01-template
+           path: .template
+      - name: Copy template test file
+        run: cp .template/Lab01Tests.py Lab01Tests.py
+      - name: Delete template
+        run: rm -rf template/
       - name: install dependencies
         run: pip3 install -r requirements.txt
       - uses: education/autograding@v1
