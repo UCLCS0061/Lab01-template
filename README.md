@@ -89,9 +89,10 @@ Only submissions prior to the Github Classroom deadline will be marked, so make 
 
 To re-iterate, the tests passing is a necessary but not sufficient condition to fulfill each task.
 All submissions will be checked by TAs for correctness and your final marks are based on their assessment of your work.  
+For full marks, make sure you have fully filled in any sections marked with `TODO` comments, including answering any
+questions in the comments of the `Lab01Code.py`.
 
-<!-- todo: distribute the 6 marks; expand tests to make reflect the mark distribution-->
-## TASK 1 -- Basic installation
+## TASK 1 -- Basic installation [1 point]
 > Ensure petlib is installed on the system
 > and also pytest. Ensure the lab code can 
 > be imported.
@@ -107,7 +108,7 @@ modification to the code file.
 This first task is meant to ensure everything is installed properly.
 If it fails, talk to a Lab TA.
 
-## TASK 2 -- Symmetric encryption using AES-GCM
+## TASK 2 -- Symmetric encryption using AES-GCM [1 point]
 > Implement encryption and decryption functions
 > that simply performs AES_GCM symmetric encryption
 > and decryption using the functions in `petlib.Cipher`.
@@ -133,7 +134,7 @@ from petlib.cipher import Cipher
 - The documentation for petlib.cipher is [available here](http://petlib.readthedocs.org/en/latest/index.html#module-petlib-cipher).
 
 
-## TASK 3 -- Understand Elliptic Curve Arithmetic
+## TASK 3 -- Understand Elliptic Curve Arithmetic [1 point]
 > - Test if a point is on a curve.
 > - Implement Point addition.
 > - Implement Point doubling.
@@ -167,7 +168,7 @@ You can find it [here](http://petlib.readthedocs.org/en/latest/index.html#module
 - Note that the neutral element `(infinity)` is encoded in `(x, y)` coordinates as `(None, None)`. Make sure you handle this input correctly. Do you also output it correctly?
 
 
-## TASK 4 -- Standard ECDSA signatures
+## TASK 4 -- Standard ECDSA signatures [1 point]
 > - Implement a key / param generation 
 > - Implement ECDSA signature using `petlib.ecdsa`
 > - Implement ECDSA signature verification using `petlib.ecdsa`
@@ -195,7 +196,7 @@ from petlib.ecdsa import do_ecdsa_sign, do_ecdsa_verify
 - It is necessary to use a secure hash function to hash an input before signing or verifying it (self study: why is that?). Luckily, the hashlib Python library provides a number of secure hash functions, and a number of insecure ones (Question: which is which?).
 
 
-## TASK 5 -- Diffie-Hellman Key Exchange and Derivation
+## TASK 5 -- Diffie-Hellman Key Exchange and Derivation [2 point: 1 point for DHKE and 1 point for test coverage]
 > - use Bob's public key to derive a shared key.
 > - Use Bob's public key to encrypt a message.
 > - Use Bob's private key to decrypt the message.
