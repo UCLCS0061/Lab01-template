@@ -17,7 +17,7 @@ jobs:
            repository: UCLCS0061/Lab01-template
            path: .template
       - name: Copy template test file
-        run: cp .template/Lab01Tests.py Lab01Tests.py
+        run: cp .template/Lab01Tests.py ./
       - name: Delete template
         run: rm -rf template/
       - name: install dependencies
