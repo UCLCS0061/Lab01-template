@@ -38,11 +38,13 @@ environment is needed to run the unit tests locally.
 
 #### Visual Studio Code development containers
 
-We provide the setup files for VSCode [development containers](https://code.visualstudio.com/docs/remote/containers)
+As an alternive to a local virtual environment, we provide the setup files for VSCode 
+[development containers](https://code.visualstudio.com/docs/remote/containers)
 which use [Docker](https://docs.docker.com/get-docker/) to create a separate development environment for each 
 repository and install the required libraries. You don't need to know how to use Docker to use development containers.
 
 #### Github tests
+
 The tests are the same as the ones that run as part of the Github Classroom automated marking system, 
 so you can also run the tests by simply committing and pushing your changes to Github, without the need for a local 
 setup or even having Python 3 installed.
